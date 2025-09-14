@@ -1,0 +1,48 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 70px;
+}
+.form{
+    border:2px solid rgb(54, 54, 54);
+    border-radius: 15px;
+    padding: 20px 25px;
+    margin-top: 25px;
+}
+input{
+    border-radius: 15px;
+    padding: 10px 30px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+textarea{   
+    padding: 30px 5px;
+    border-radius: 20px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+input:hover{
+    box-shadow: 0px 1px 10px 2px rgb(68, 66, 66);
+}
+textarea:hover{
+    box-shadow: 0px 1px 10px 2px rgb(68, 66, 66);
+}
+button{
+    padding: 15px 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(45, 39, 39);
+}
+option{
+    border: 2px solid;
+    padding: 30px 5px;
+    border-radius: 20px;
+    background-color: rgb(61, 61, 61);
+}
+select{
+    background-color:rgb(61, 61, 61);
+    padding:15px 20px;
+    border-radius: 20px;
+}
